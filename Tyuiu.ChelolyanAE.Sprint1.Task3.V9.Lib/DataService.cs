@@ -6,8 +6,8 @@ namespace Tyuiu.ChelolyanAE.Sprint1.Task3.V9.Lib
     {
         public double ConvertMinutesToHours(int minutes)
         {
-           int  x = minutes;
-            return x/ 60;
+           double x = minutes;
+            return Math.Round(x / 60, 3);
         }
     }
 }
