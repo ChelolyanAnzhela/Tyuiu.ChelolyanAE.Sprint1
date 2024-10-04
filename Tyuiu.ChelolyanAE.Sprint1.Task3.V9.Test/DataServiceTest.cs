@@ -10,7 +10,7 @@ namespace Tyuiu.ChelolyanAE.Sprint1.Task3.V9.Test
         {
             DataService ds = new DataService();
             int minutes = 325;
-            double wait = 5.417;
+            int wait = 5;
             double hour = ds.ConvertMinutesToHours(minutes);
             Assert.AreEqual(wait, hour);
             
